@@ -1,0 +1,13 @@
+#pragma once
+
+#include <time.h>
+#include <windows.h>
+#include <tchar.h>
+#include <io.h>
+#include <fcntl.h>
+#include <stdio.h>
+#include <string.h>
+#include <conio.h>
+#include <process.h>
+
+

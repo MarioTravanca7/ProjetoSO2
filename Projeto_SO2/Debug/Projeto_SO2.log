@@ -1,0 +1,9 @@
+﻿  control.c
+C:\Users\trava\source\repos\Projeto_SO2\Projeto_SO2\control.c(29,25): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
+C:\Users\trava\source\repos\Projeto_SO2\Projeto_SO2\control.c(29,23): warning C4024: 'move': different types for formal and actual parameter 5
+C:\Users\trava\source\repos\Projeto_SO2\Projeto_SO2\control.c(29,28): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
+C:\Users\trava\source\repos\Projeto_SO2\Projeto_SO2\control.c(29,26): warning C4024: 'move': different types for formal and actual parameter 6
+C:\Users\trava\source\repos\Projeto_SO2\Projeto_SO2\control.c(28,1): warning C4047: 'initializing': 'int *' differs in levels of indirection from 'int'
+C:\Users\trava\source\repos\Projeto_SO2\Projeto_SO2\control.c(19,8): warning C4101: 'score': unreferenced local variable
+C:\Users\trava\source\repos\Projeto_SO2\Projeto_SO2\control.c(16,8): warning C4101: 'command': unreferenced local variable
+  Projeto_SO2.vcxproj -> C:\Users\trava\source\repos\Projeto_SO2\Debug\Projeto_SO2.exe

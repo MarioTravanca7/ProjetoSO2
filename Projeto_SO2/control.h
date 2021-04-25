@@ -15,14 +15,13 @@
 //Registry
 HKEY key;
 int check;
-REGISTRY reg;
 DWORD tam;
 
 typedef struct {
 	int aeroportos;
 	int avioes;
 }REGISTRY;
-
+REGISTRY reg;
 typedef struct {
 	char* name;
 	int posX, posY;

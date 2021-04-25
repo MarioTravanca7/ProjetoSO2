@@ -1,17 +1,6 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(519,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Projeto_SO2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   control.c
-C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Projeto_SO2\control.c(9,12): warning C4101: 'posY': unreferenced local variable
-C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Projeto_SO2\control.c(9,6): warning C4101: 'posX': unreferenced local variable
-C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Projeto_SO2\control.c(8,7): warning C4101: 'airportname': unreferenced local variable
-C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Projeto_SO2\control.c(96,25): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
-C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Projeto_SO2\control.c(96,23): warning C4024: 'move': different types for formal and actual parameter 5
-C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Projeto_SO2\control.c(96,28): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
-C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Projeto_SO2\control.c(96,26): warning C4024: 'move': different types for formal and actual parameter 6
-C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Projeto_SO2\control.c(107,36): warning C4133: 'function': incompatible types - from 'char [11]' to 'const wchar_t *'
-C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Projeto_SO2\control.c(109,30): warning C4133: 'function': incompatible types - from 'char [5]' to 'const wchar_t *'
-C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Projeto_SO2\control.c(112,34): warning C4133: 'function': incompatible types - from 'char [5]' to 'const wchar_t *'
-C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Projeto_SO2\control.c(95,1): warning C4047: 'initializing': 'int *' differs in levels of indirection from 'int'
 C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Projeto_SO2\control.c(86,8): warning C4101: 'score': unreferenced local variable
-C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Projeto_SO2\control.c(56): warning C4716: 'ResgtryChange': must return a value
 C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Projeto_SO2\control.c(80): warning C4715: 'Registry': not all control paths return a value
+C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Projeto_SO2\control.c(56): warning C4716: 'ResgtryChange': must return a value
   Projeto_SO2.vcxproj -> C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Debug\Controlador.exe

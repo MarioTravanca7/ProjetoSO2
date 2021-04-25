@@ -3,11 +3,11 @@
 
 
 
-
-void AddAirport() {
-	char airportname;
-	int posX, posY;
-}
+//
+//void AddAirport() {
+//	char airportname;
+//	int posX, posY;
+//}
 
 //void Registry() {
 //	if (RegCreateKeyEx(HKEY_CURRENT_USER, TEXT("Software\\SO2"), 0, NULL,
@@ -80,7 +80,7 @@ int Registry() {
 }
 
 int _tmain(DWORD argc, TCHAR** argv){
-	TCHAR command[TAM];
+	TCHAR command[TAM] = TEXT("");
 	TCHAR nameP[TAM];
 	nameP[0] = '\0';
 	DWORD score;
@@ -91,9 +91,9 @@ int _tmain(DWORD argc, TCHAR** argv){
 #endif
 	_tprintf(TEXT("Game:"));
 
-	int x;
-	int* q= 50, * p=50;
-	x = move(50,50,50,50,&q,&p);
+	int x=0;
+	//int* q= 50, * p=50;
+	//x = move(50,50,50,50,&q,&p);
 	_tprintf(TEXT("x: %d"), x);
 
 	Registry();
@@ -102,14 +102,14 @@ int _tmain(DWORD argc, TCHAR** argv){
 	//_tprintf(TEXT("pontos:"));
 	////_tscanf_s(TEXT("%d"), &score);
 
-	do {
+	/*do {
 
 		if (_tcscmp(command, "addAirport") == 0) {
 		}
 		if (_tcscmp(command, "sair") == 0) {
 		}
 
-	} while (_tcscmp(command, "sair")==0);
+	} while (_tcscmp(command, "sair")==0);*/
 
 
 

@@ -9,8 +9,30 @@
 #include <process.h>
 
 #define TAM 256
+#define MIN 10
+#define MAX 1000
+
+//Registry
+HKEY key;
+int check;
+REGISTRY reg;
+DWORD tam;
 
 typedef struct {
 	int aeroportos;
 	int avioes;
 }REGISTRY;
+
+typedef struct {
+	char* name;
+	int posX, posY;
+}AEROPORTO;
+
+typedef struct {
+	int mapX, mapY;
+	AEROPORTO aeroportos[MAX];
+}MAPA;
+
+typedef struct {
+	char destino[TAM];
+}PASSAGEIRO;

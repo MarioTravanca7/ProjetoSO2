@@ -1,0 +1,4 @@
+﻿  passag.c
+C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Client\passag.c(8,8): warning C4101: 'score': unreferenced local variable
+C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Client\passag.c(5,8): warning C4101: 'command': unreferenced local variable
+  Client.vcxproj -> C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Debug\Passageiro.exe

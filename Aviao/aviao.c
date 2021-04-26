@@ -19,8 +19,23 @@ int _tmain(DWORD argc, TCHAR** argv) {
 	//_tscanf_s(TEXT("%d"), &score);
 
 
-
+	//vai ficar numa thread ?
 	do {
+
+		if (_tcscmp(command, "destino") == 0) {
+
+		}
+		if (_tcscmp(command, "embarcar") == 0) {
+
+		}
+		if (_tcscmp(command, "iniciarviagem") == 0) {
+
+		}
+
+		if (_tcscmp(command, "sair") == 0) {
+			//notificaçoes 
+		}
+
 
 	} while (_tcscmp(command, "sair") == 0);
 

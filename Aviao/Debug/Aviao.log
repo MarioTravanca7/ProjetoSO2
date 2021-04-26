@@ -1,0 +1,8 @@
+﻿  aviao.c
+C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Aviao\aviao.c(25,33): warning C4133: 'function': incompatible types - from 'char [8]' to 'const wchar_t *'
+C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Aviao\aviao.c(28,34): warning C4133: 'function': incompatible types - from 'char [9]' to 'const wchar_t *'
+C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Aviao\aviao.c(31,39): warning C4133: 'function': incompatible types - from 'char [14]' to 'const wchar_t *'
+C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Aviao\aviao.c(35,30): warning C4133: 'function': incompatible types - from 'char [5]' to 'const wchar_t *'
+C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Aviao\aviao.c(40,34): warning C4133: 'function': incompatible types - from 'char [5]' to 'const wchar_t *'
+C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Aviao\aviao.c(8,8): warning C4101: 'score': unreferenced local variable
+  Aviao.vcxproj -> C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Debug\Aviao.exe

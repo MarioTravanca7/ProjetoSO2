@@ -1,0 +1,8 @@
+﻿  function.c
+C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\DLL\function.c(6,18): warning C4273: 'meuFactor': inconsistent dll linkage
+C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\DLL\functions.h(11,20): message : see previous definition of 'meuFactor'
+C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\DLL\function.c(8,32): warning C4273: 'meuApplyFator': inconsistent dll linkage
+C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\DLL\functions.h(13,20): message : see previous definition of 'meuApplyFator'
+     Creating library C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Debug\DLL.lib and object C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Debug\DLL.exp
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\trava\OneDrive\Área de Trabalho\ProjetoSO2\Debug\DLL.exe : fatal error LNK1120: 1 unresolved externals

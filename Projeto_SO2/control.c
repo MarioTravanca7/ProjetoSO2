@@ -1,35 +1,48 @@
 #include "../SO2_TP_DLL_2021.h"
 #include "control.h"
 
+#define RAIO 2 //mudar para 10
+
+void inicio() {
+	control.mapX = 10; //1000
+	control.mapY = 10; //1000
+}
+
+void VerificaNomeAeroporto() {
+
+}
 
 
-//
-//void AddAirport() {
-//	char airportname;
-//	int posX, posY;
-//}
+void VerificaPosicaoAeroporto() {
 
-//void Registry() {
-//	if (RegCreateKeyEx(HKEY_CURRENT_USER, TEXT("Software\\SO2"), 0, NULL,
-//		REG_OPTION_NON_VOLATILE, KEY_ALL_ACCESS, NULL, &key, &check) == ERROR_SUCCESS) {
-//		if (check == REG_CREATED_NEW_KEY) {
-//			RegSetValueEx(key, TEXT("ListaTop10"), 0, REG_BINARY, (LPBYTE)reg, sizeof(reg));
-//			RegSetValueEx(key, TEXT("Top10"), 0, REG_DWORD, (LPBYTE)&nTop, sizeof(DWORD));
-//		}
-//		else if (check == REG_OPENED_EXISTING_KEY) {
-//			RegSetValueEx(key, TEXT("ListaTop10"), 0, REG_BINARY, (LPBYTE)reg, sizeof(reg));
-//			RegSetValueEx(key, TEXT("Top10"), 0, REG_DWORD, (LPBYTE)&nTop, sizeof(DWORD));
-//			tam = sizeof(DWORD);
-//			RegQueryValueEx(key, TEXT("Top10"), NULL, NULL, (LPBYTE)&nTop, &tam);
-//			tam = sizeof(reg);
-//			RegQueryValueEx(key, TEXT("ListaTop10"), 0, NULL, (LPBYTE)reg, &tam);
-//			//mostra();
-//
-//		}
-//	}
-//}
+}
+
+void AddAirport(int *cA) {
+	char airportname;
+	int posX, posY;
+	int verifica = 1;// 1 - existe aeroporto		0 - nao existe aeroporto
+
+	/*_tprintf(TEXT("nome aeroporto:"));
+	_tscanf_s(L"%[^\n]", nameP, TAM);
+	
+	_tprintf(TEXT("X:"));
+	_tscanf_s(TEXT("%d"), &control.aeroportos[0].posX);
+	_tprintf(TEXT("Y:"));
+	_tscanf_s(TEXT("%d"), &control.aeroportos[0].posY);*/
 
 
+
+
+	control.aeroportos[0].name = "New York";
+	control.aeroportos[0].posX = 8;
+	control.aeroportos[0].posY = 6;
+
+}
+
+void MostrarAirport() {
+
+
+}
 
 int ResgtryChange() {
 	int aeroporto, aviao;
@@ -79,11 +92,17 @@ int Registry() {
 	}
 }
 
+
+void MostraMapa() { //Thread ? 
+
+}
+
 int _tmain(DWORD argc, TCHAR** argv){
 	TCHAR command[TAM] = TEXT("");
 	TCHAR nameP[TAM];
 	nameP[0] = '\0';
 	DWORD score;
+	int contaAvioes = 0;
 
 #ifdef UNICODE
 	_setmode(_fileno(stdin), _O_WTEXT);
@@ -92,25 +111,42 @@ int _tmain(DWORD argc, TCHAR** argv){
 	_tprintf(TEXT("Game:"));
 
 	int x=0;
+	//DLL
 	//int* q= 50, * p=50;
 	//x = move(50,50,50,50,&q,&p);
 	_tprintf(TEXT("x: %d"), x);
 
 	Registry();
+	inicio();
 	//_tprintf(TEXT("jogador:"));
 	//_tscanf_s(L"%[^\n]", nameP, TAM); //TODO - ver melhor com a prof
 	//_tprintf(TEXT("pontos:"));
 	////_tscanf_s(TEXT("%d"), &score);
 
-	/*do {
+	do {
+		_tprintf(TEXT("jogador:"));
+		_tscanf_s(L"%[^\n]", command); // ver como se apanha uma string
 
-		if (_tcscmp(command, "addAirport") == 0) {
+		if (_tcscmp(command, "addairport") == 0) {
+			AddAirport(&contaAvioes, contaAvioes);
 		}
+
+		if (_tcscmp(command, "airportlist") == 0) {
+
+		}
+		if (_tcscmp(command, "airplanelist") == 0) {
+
+		}
+		if (_tcscmp(command, "passaglist") == 0) {
+
+		}
+
 		if (_tcscmp(command, "sair") == 0) {
+			//notificaçoes 
 		}
 
-	} while (_tcscmp(command, "sair")==0);*/
 
+	} while (_tcscmp(command, "sair")==0);
 
 
 	return 0;

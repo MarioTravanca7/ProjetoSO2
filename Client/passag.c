@@ -1,4 +1,5 @@
-#include "client.h"
+#include "passageiro.h"
+
 
 int _tmain(DWORD argc, TCHAR** argv) {
 	TCHAR command[TAM];
@@ -17,9 +18,9 @@ int _tmain(DWORD argc, TCHAR** argv) {
 	//_tprintf(TEXT("pontos:"));
 	//_tscanf_s(TEXT("%d"), &score);
 
-	do {
+	//do {
 
-	} while (_tcscmp(command, "sair") == 0);
+	//} while (_tcscmp(command, "sair") == 0);
 
 
 
